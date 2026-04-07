@@ -6,7 +6,6 @@
     <title>Graphic Design Services | Pricing</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="ADT icon.png">
     <style>
         body { font-family: 'Inter', sans-serif; }
         .glass-card {
@@ -19,7 +18,7 @@
         }
     </style>
 </head>
-<body class="bg-gray-950 text-gray-100 antialiased">
+<body class="bg-gray-950 text-gray-100 antialiased relative min-h-screen">
 
     <header class="py-20 text-center px-4">
         <h1 class="text-4xl md:text-6xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">
@@ -46,11 +45,11 @@
                     <li class="flex items-center">✅ Extra revisions: 10,000 MMK per revision.</li>
                 </ul>
                 
-                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground hover:bg-primary/90 h-9 px-4 w-full rounded-xl text-lg font-semibold py-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90 shadow-lg shadow-purple-500/30" data-source-pos="101:18-106:27" data-source-name="Button">🚀 Order Now</button>
+                <button class="order-btn inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-9 px-4 w-full rounded-xl text-lg font-semibold py-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90 shadow-lg shadow-purple-500/30">🚀 Order Now</button>
             </div>
 
-            <div class="pro-card rounded-3xl p-8 hover:transform hover:scale-105 transition-all duration-300">
-                <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+            <div class="pro-card relative rounded-3xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
                     🔥 Best Value
                 </div>                           
                 <h3 class="text-xl font-semibold mb-2">Pro Package</h3>
@@ -66,7 +65,7 @@
                     <li class="flex items-center">✅ Extra revisions: 8,000 MMK per revision.</li>
                 </ul>
                 
-                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground hover:bg-primary/90 h-9 px-4 w-full rounded-xl text-lg font-semibold py-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90 shadow-lg shadow-purple-500/30" data-source-pos="101:18-106:27" data-source-name="Button">🚀 Order Now</button>
+                <button class="order-btn inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-9 px-4 w-full rounded-xl text-lg font-semibold py-6 bg-white text-purple-700 hover:bg-gray-100 shadow-lg shadow-purple-900/30">🚀 Order Now</button>
             </div>
 
             <div class="glass-card rounded-3xl p-8 hover:transform hover:scale-105 transition-all duration-300">
@@ -82,28 +81,103 @@
                     <li class="flex items-center">✅ Priority Delivery</li>
                 </ul>
                 
-                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground hover:bg-primary/90 h-9 px-4 w-full rounded-xl text-lg font-semibold py-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90 shadow-lg shadow-purple-500/30" data-source-pos="101:18-106:27" data-source-name="Button">🚀 Order Now</button>
+                <button class="order-btn inline-flex items-center justify-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-9 px-4 w-full rounded-xl text-lg font-semibold py-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90 shadow-lg shadow-purple-500/30">🚀 Order Now</button>
             </div>
 
         </div>
 
         <div class="mt-16 text-center">
-            <p class="text-gray-500">
+            <p class="text-gray-500 italic mb-8">
                 "Design is not just what it looks like, it's how it works."
             </p>            
-            <div className="mt-16 max-w-2xl mx-auto text-center">          
-          <div data-source-pos="115:10-125:16" data-source-name="div" class="bg-amber-500/10 border border-amber-400/30 rounded-2xl p-6 backdrop-blur"><p data-source-pos="116:12-118:16" data-source-name="p" class="text-amber-300 text-lg font-medium">⚠️ Order အတည်ပြုရန်အတွက် စရန်ငွေ (50% Deposit) ကို ကြိုတင်ပေးဆောင်ရန် လိုအပ်ပါသည်။</p><p data-source-pos="119:12-121:16" data-source-name="p" class="text-slate-400 text-sm mt-2">Remaining payment ကို design ပြီးဆုံးပြီး delivery မပေးခင် ပေးချေရပါမည်။</p><p data-source-pos="122:12-124:16" data-source-name="p" class="text-slate-400 text-sm mt-2">Packages များအပြင် သီးသန့် Project များအတွက်လည်း ညှိနှိုင်းနိုင်ပါသည်။</p></div>
-          <div className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm z-50">
-            <div className="bg-slate-900 text-white p-8 rounded-2xl w-[350px] text-center shadow-2xl">
-              <h3 className="text-2xl font-bold mb-4">Contact to Order</h3>
-              <p className="mb-2 text-slate-300">📞 Phone: 09-421-489-664</p>
-              <p className="mb-6 text-slate-300">📧 Email: artdta23@gmail.com</p>              
+            <div class="max-w-2xl mx-auto text-center">          
+                <div class="bg-amber-500/10 border border-amber-400/30 rounded-2xl p-6 backdrop-blur">
+                    <p class="text-amber-300 text-lg font-medium">⚠️ Order အတည်ပြုရန်အတွက် စရန်ငွေ (50% Deposit) ကို ကြိုတင်ပေးဆောင်ရန် လိုအပ်ပါသည်။</p>
+                    <p class="text-slate-400 text-sm mt-2">Remaining payment ကို design ပြီးဆုံးပြီး delivery မပေးခင် ပေးချေရပါမည်။</p>
+                    <p class="text-slate-400 text-sm mt-2">Packages များအပြင် သီးသန့် Project များအတွက်လည်း ညှိနှိုင်းနိုင်ပါသည်။</p>
+                </div>
             </div>
-        </div>        
+        </div>
     </section>
+
+    <div id="orderModal" class="fixed inset-0 flex items-center justify-center bg-black/80 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300">
+        <div class="bg-slate-900 border border-slate-700 text-white p-8 rounded-3xl w-[90%] max-w-md text-center shadow-2xl relative transform scale-95 transition-transform duration-300" id="modalContent">
+            
+            <button id="closeModalBtn" class="absolute top-4 right-5 text-gray-400 hover:text-white text-3xl font-bold">&times;</button>
+
+            <h3 class="text-2xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400">Contact to Order</h3>
+            <p class="mb-2 text-slate-300 text-sm">📞 Phone: <span class="font-semibold text-white">09-421-489-664</span></p>
+            <p class="mb-6 text-slate-300 text-sm">📧 Email: <span class="font-semibold text-white">artdta23@gmail.com</span></p>              
+            
+            <hr class="border-slate-700 mb-6">
+            <p class="text-sm text-slate-400 mb-4">Scan to connect directly:</p>
+
+            <div class="flex justify-around items-center gap-4">
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-2 rounded-xl mb-2">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=FacebookLink" alt="Facebook" class="w-16 h-16">
+                    </div>
+                    <span class="text-xs text-slate-400">Facebook</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-2 rounded-xl mb-2">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=ViberLink" alt="Viber" class="w-16 h-16">
+                    </div>
+                    <span class="text-xs text-slate-400">Viber</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-2 rounded-xl mb-2">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=TelegramLink" alt="Telegram" class="w-16 h-16">
+                    </div>
+                    <span class="text-xs text-slate-400">Telegram</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById('orderModal');
+        const modalContent = document.getElementById('modalContent');
+        const orderBtns = document.querySelectorAll('.order-btn');
+        const closeBtn = document.getElementById('closeModalBtn');
+
+        // Function to open Modal with animation
+        function openModal() {
+            modal.classList.remove('hidden');
+            // Slight delay to allow display:block to apply before animating opacity
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modalContent.classList.remove('scale-95');
+                modalContent.classList.add('scale-100');
+            }, 10);
+        }
+
+        // Function to close Modal with animation
+        function closeModal() {
+            modal.classList.add('opacity-0');
+            modalContent.classList.remove('scale-100');
+            modalContent.classList.add('scale-95');
+            // Wait for animation to finish before hiding completely
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+
+        // Attach click event to all 'Order Now' buttons
+        orderBtns.forEach(btn => {
+            btn.addEventListener('click', openModal);
+        });
+
+        // Attach click event to Close button (X)
+        closeBtn.addEventListener('click', closeModal);
+
+        // Close Modal when clicking outside the box
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+    </script>
 
 </body>
 </html>
-
-
-
